@@ -14,6 +14,7 @@ class BlueViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         testLabel.text = textForLabel
+        //something
     }
     @IBAction func goToGreenControlller(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
