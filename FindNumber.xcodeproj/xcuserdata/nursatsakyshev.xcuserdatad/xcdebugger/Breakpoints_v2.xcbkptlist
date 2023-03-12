@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8171C8D0-7A1D-4E6C-BC3F-832A824D537E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SettingsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - e34f81732f1faaf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.switchTimer.getter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - ca39d4b5c5867acc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.switchTimer.setter : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - ca9459fdda6776fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.switchTimer.modify : Swift.Optional&lt;__C.UISwitch&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - c3f2b1ac257ab692"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.switchTimer.modify : Swift.Optional&lt;__C.UISwitch&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - 67af2ee12588b896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(style: __C.UITableViewStyle) -&gt; FindNumber.SettingsTableViewController"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - 3bd184127cfb3224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FindNumber.SettingsTableViewController"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "4FEEBABB-5B8E-4C07-8448-E9EED1E9C05F - 1400483e35b5fb92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FindNumber.SettingsTableViewController&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C509046E-7D75-4D1C-9A15-8A245BCF1AE2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SettingsTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SettingsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - d8e366458afda1d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - 636058da8ad80d2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - 45632bfc7cbc0ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - 246ad5be9237bf5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - 67af2ee12588b854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(style: __C.UITableViewStyle) -&gt; FindNumber.SettingsTableViewController"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - 3bd184127cfb32e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FindNumber.SettingsTableViewController"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "31FAEE2B-52B3-4165-8113-BF87EDCBEAC1 - 1400483e35b5fb50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FindNumber.SettingsTableViewController&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E26E422-9261-4664-8C69-9876E10879D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00098A30-E93A-476A-9AAF-714C372354DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/SettingsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "SettingsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - d8e366458afda1d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - 636058da8ad80d2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - 45632bfc7cbc0ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - 246ad5be9237bf5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.timeGameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - 67af2ee12588b854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(style: __C.UITableViewStyle) -&gt; FindNumber.SettingsTableViewController"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - 3bd184127cfb32e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; FindNumber.SettingsTableViewController"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "00098A30-E93A-476A-9AAF-714C372354DC - 1400483e35b5fb50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindNumber.SettingsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FindNumber.SettingsTableViewController&gt;"
+                  moduleName = "FindNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nursatsakyshev/Desktop/FindNumber/FindNumber/SettingsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0115C197-EF19-40AE-B62C-FC8AB90B8711"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CA139A3-4717-455D-966B-0E17212F8E6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB6BDA6B-EBD8-481C-9024-2EE93024EFB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E13AEC1F-978E-4259-A8A9-E109B7F9AA5F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindNumber/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
