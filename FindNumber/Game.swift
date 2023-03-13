@@ -52,10 +52,20 @@ class Game {
         }
     }
     
-    init(countItems: Int, timeForGame: Int, updateTimer: @escaping (_ status: statusGame, _ seconds: Int) -> Void) {
+    //1
+//    init(countItems: Int, timeForGame: Int, updateTimer: @escaping (_ status: statusGame, _ seconds: Int) -> Void) {
+//        self.countItems = countItems
+//        self.secondsGame = timeForGame
+//        self.timeForGame = timeForGame
+//        self.updateTimer = updateTimer
+//        setupGame()
+//    }
+    
+    //2
+    init(countItems: Int, updateTimer: @escaping (_ status: statusGame, _ seconds: Int) -> Void) {
         self.countItems = countItems
-        self.secondsGame = timeForGame
-        self.timeForGame = timeForGame
+        self.secondsGame = Settings.shared.currentSettings.timeForGame
+        self.timeForGame = self.secondsGame
         self.updateTimer = updateTimer
         setupGame()
     }
@@ -72,8 +82,10 @@ class Game {
         
         updateTimer(status, secondsGame)
         
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self](_) in self?.secondsGame -= 1
-        })
+        if Settings.shared.currentSettings.timerState {
+            timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self](_) in self?.secondsGame -= 1
+            })
+        }
     }
     
     func check(index: Int) {
@@ -92,7 +104,7 @@ class Game {
         }
     }
     
-    private func stopGame() {
+    func stopGame() {
         timer?.invalidate()
     }
     

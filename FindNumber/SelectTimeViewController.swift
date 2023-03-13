@@ -21,6 +21,7 @@ class SelectTimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        tableView.dataSource = self
+    
     }
 }
 
@@ -42,6 +43,7 @@ extension SelectTimeViewController:
         tableView.deselectRow(at: indexPath, animated: true)
 //        UserDefaults.standard.setValue(data[indexPath.row], forKey: "timeForGame")
 //        UserDefaults.standard.integer(forKey: "timeForGame")
+          
         
         Settings.shared.currentSettings.timeForGame = data[indexPath.row]
 //        print(data[indexPath.row])

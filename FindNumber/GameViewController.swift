@@ -18,8 +18,17 @@ class GameViewController: UIViewController {
     @IBOutlet weak var nextDigit: UILabel!
     
     @IBOutlet var buttons: [UIButton]!
+ 
+    //1
+//    lazy var game = Game(countItems: buttons.count, timeForGame: 30) { [weak self] (status, time) in
+//        guard let self = self else {return}
+//
+//        self.timerLabel.text = time.secondsToString()
+//        self.updateInfoGame(with: status )
+//    }
     
-    lazy var game = Game(countItems: buttons.count, timeForGame: 30) { [weak self] (status, time) in
+    //2
+    lazy var game = Game(countItems: buttons.count) { [weak self] (status, time) in
         guard let self = self else {return}
         
         self.timerLabel.text = time.secondsToString()
@@ -74,6 +83,11 @@ class GameViewController: UIViewController {
         nextDigit.text = game.nextItem?.title
         
         updateInfoGame(with: game.status)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        game.stopGame()
     }
     
     private func updateInfoGame(with: statusGame) {
