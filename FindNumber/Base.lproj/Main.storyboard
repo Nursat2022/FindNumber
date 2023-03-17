@@ -47,7 +47,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="QjY-Vq-u3C" kind="show" id="4p7-zz-2Ex"/>
+                                            <segue destination="5U1-7U-Bsg" kind="presentation" modalPresentationStyle="fullScreen" id="4p7-zz-2Ex"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -358,6 +358,7 @@
                         <outletCollection property="buttons" destination="XVz-Uf-pVs" collectionClass="NSMutableArray" id="wIS-Nd-uN9"/>
                         <outletCollection property="buttons" destination="pqO-gh-4PL" collectionClass="NSMutableArray" id="EwO-oA-bd6"/>
                         <outletCollection property="buttons" destination="tW3-r1-xAu" collectionClass="NSMutableArray" id="ukg-eo-POP"/>
+                        <segue destination="5U1-7U-Bsg" kind="presentation" identifier="recordVC" modalPresentationStyle="fullScreen" id="4B5-KX-l9E"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LJE-CM-0T3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -526,18 +527,41 @@
         <!--Рекорд-->
         <scene sceneID="bio-lf-eDn">
             <objects>
-                <viewController id="QjY-Vq-u3C" sceneMemberID="viewController">
+                <viewController id="QjY-Vq-u3C" customClass="RecordViewController" customModule="FindNumber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kbE-Y1-Txg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcq-al-LXw">
+                                <rect key="frame" x="175.66666666666666" y="425.66666666666669" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vUF-ex-OI3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Lcq-al-LXw" firstAttribute="centerX" secondItem="vUF-ex-OI3" secondAttribute="centerX" id="Mnt-YL-O8f"/>
+                            <constraint firstItem="Lcq-al-LXw" firstAttribute="centerY" secondItem="vUF-ex-OI3" secondAttribute="centerY" id="SW4-8i-cHI"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Рекорд" id="LD8-zw-QpZ"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Рекорд" id="LD8-zw-QpZ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="aHv-bk-YlK">
+                            <connections>
+                                <action selector="closeVC:" destination="QjY-Vq-u3C" id="4mf-xe-ehv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="recordLabel" destination="Lcq-al-LXw" id="Msu-Jj-ztd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gYc-sm-hRO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-86" y="-699"/>
+            <point key="canvasLocation" x="840.45801526717548" y="-699.29577464788736"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8CA-Si-WSP">
@@ -563,7 +587,28 @@
             </objects>
             <point key="canvasLocation" x="-869" y="-13"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="x6Y-vv-DnP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5U1-7U-Bsg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5As-mQ-LXY">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QjY-Vq-u3C" kind="relationship" relationship="rootViewController" id="9RK-zz-pfJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ITg-if-sof" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-86.25954198473282" y="-699.29577464788736"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="4B5-KX-l9E"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -10,6 +10,7 @@
 		C80777D2298031D300078A72 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80777D1298031D300078A72 /* SelectTimeViewController.swift */; };
 		C80777D42980323100078A72 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80777D32980323100078A72 /* SettingsTableViewController.swift */; };
 		C80F3557298180020066486A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80F3556298180020066486A /* Settings.swift */; };
+		C83D334429C4069800F8BB9A /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D334329C4069800F8BB9A /* RecordViewController.swift */; };
 		C8834979297E463D0073A050 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8834978297E463D0073A050 /* YellowViewController.swift */; };
 		C883497B297E73720073A050 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883497A297E73720073A050 /* BlueViewController.swift */; };
 		C8BC1C1029790EE3001AA871 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BC1C0F29790EE3001AA871 /* Game.swift */; };
@@ -46,6 +47,7 @@
 		C80777D1298031D300078A72 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
 		C80777D32980323100078A72 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		C80F3556298180020066486A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C83D334329C4069800F8BB9A /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		C8834978297E463D0073A050 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		C883497A297E73720073A050 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		C8BC1C0F29790EE3001AA871 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				C80777D1298031D300078A72 /* SelectTimeViewController.swift */,
 				C80777D32980323100078A72 /* SettingsTableViewController.swift */,
 				C80F3556298180020066486A /* Settings.swift */,
+				C83D334329C4069800F8BB9A /* RecordViewController.swift */,
 			);
 			path = FindNumber;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				C8DA3FFD2974079B0096F60E /* SceneDelegate.swift in Sources */,
 				C8BC1C1029790EE3001AA871 /* Game.swift in Sources */,
 				C80F3557298180020066486A /* Settings.swift in Sources */,
+				C83D334429C4069800F8BB9A /* RecordViewController.swift in Sources */,
 				C883497B297E73720073A050 /* BlueViewController.swift in Sources */,
 				C8834979297E463D0073A050 /* YellowViewController.swift in Sources */,
 				C8DC946F297E80DB007E483F /* GreenViewController.swift in Sources */,
